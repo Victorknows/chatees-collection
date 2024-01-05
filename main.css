@@ -9,7 +9,7 @@ body{
     right: 0%;
     height: 100vh;
     width: 250px;
-    right: -250px;
+    opacity: 0;
     transition: right 1s ease;
     
 }
@@ -75,7 +75,7 @@ body{
         left: 15%;
     }
     .image img{
-        left: 20rem;
+        left: 22rem;
         width: 45px;
     }
     .navbar{
