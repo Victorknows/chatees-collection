@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: gray;
+    position: absolute;
+    right: 0%;
+    height: 100vh;
+    width: 250px;
+    right: -250px;
+    transition: right 1s ease;
+    
+}
+.navbar li{
+    list-style: none;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 5rem;
+    width: 200px;
+}
+.image img{
+    width: 65px;
+    background-color: #009688;
+    position: fixed;
+    border-radius: 4px;
+    left: 75rem;
+
+}
+.image{
+    margin-top: 20px;
+    display: inline-block;
+
+}
+.list{
+    display: inline-block;
+    
+}
+.image:hover{
+    cursor: pointer;
+}
+.header1{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),#009688), url(pictures/church-barber2_1800x_2712cbfe-0c2b-4492-9b9a-a9213b4a339f_1600x.jpeg) ;
+    
+}
+.name h1{
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 55px;
+
+}
+.name{
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    
+}
+.name h2{
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+@media only screen and (max-width: 700px){
+    .name h2{
+        font-size: 20px;
+    }
+    .name h1{
+        font-size: 40px;
+    }
+    .name{
+        left: 15%;
+    }
+    .image img{
+        left: 20rem;
+        width: 45px;
+    }
+    .navbar{
+        width: 200px;
+    }
+}
